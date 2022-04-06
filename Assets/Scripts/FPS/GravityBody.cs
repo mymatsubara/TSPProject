@@ -6,7 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(GroundDetector))]
 public class GravityBody : MonoBehaviour
 {
-    public float standingSpeed = -1.5f;
+    public float standingSpeed = -1.0f;
     public float terminalSpeed = -30.0f;
     public float gravity = -40.0f;
 
